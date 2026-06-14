@@ -38,6 +38,12 @@ function ProductCard({ product }) {
             })
     }
 
+    function handleDelete() {
+        fetch(`http://localhost:3001/products/${product.id}`, {
+            method: "DELETE",
+        });
+    }
+
 
 
 
@@ -45,17 +51,16 @@ function ProductCard({ product }) {
 
     return (
         <div>
+            <h2>{product.name}</h2>
 
-            <h2> {product.name} </h2>
-
-            <img src={product.image ? (
+            {product.image ? (
                 <img src={product.image} alt={product.name} />
             ) : (
                 <div>No image available</div>
-            )} />
+            )}
 
-            <p> {product.anime} </p>
-            <p> {product.category} </p>
+            <p>{product.anime}</p>
+            <p>{product.category}</p>
 
             {isEditing ? (
                 <>
@@ -70,9 +75,9 @@ function ProductCard({ product }) {
                 </>
             )}
 
-            <button onClick={handleLikes}> ❤️ {likes}</button>
+            <button onClick={handleLikes}>❤️ {likes}</button>
+            <button onClick={handleDelete}>Delete</button>
         </div>
-
     );
 }
 
