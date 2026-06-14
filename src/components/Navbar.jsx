@@ -1,4 +1,3 @@
-import { useState } from "react"
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -9,7 +8,7 @@ function Navbar() {
             <Link to="/anime">Anime</Link>
 
             <Link to="/shop">Shop</Link>
-            
+
             <Link to="/admin">Admin</Link>
         </nav>
     );
