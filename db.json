@@ -1,0 +1,66 @@
+{
+  "store_info": [
+    {
+      "id": "1",
+      "name": "Anime Showcase",
+      "description": "Watch anime and shop manga and official merchandise."
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Dragon Ball Z Poster",
+      "anime": "Dragon Ball Z",
+      "category": "Poster",
+      "price": "8.99",
+      "likes": 0,
+      "image": ""
+    },
+    {
+      "id": "2",
+      "name": "Berserk Anime Set",
+      "anime": "Berserk",
+      "category": "dvd",
+      "price": 13.99,
+      "likes": 0,
+      "image": ""
+    },
+    {
+      "id": "3",
+      "name": "Naruto Vol I",
+      "anime": "Naruto",
+      "category": "Manga",
+      "price": 12.99,
+      "likes": 0,
+      "image": ""
+    },
+    {
+      "id": "4",
+      "name": "Gon & Kilua Hoodie",
+      "anime": "Hunter x Hunter",
+      "category": "Hoodie",
+      "price": 14.99,
+      "likes": 0,
+      "image": ""
+    },
+    {
+      "name": "DBZ Card",
+      "anime": "Dragonball Z",
+      "category": "Card",
+      "price": "5.99",
+      "image": "\"image url\"",
+      "likes": 0,
+      "id": "VerNi6dMZfc"
+    },
+    {
+      "name": "BALL",
+      "anime": "hxh",
+      "category": "ball",
+      "price": "7.99",
+      "image": "\"img url\"",
+      "likes": 0,
+      "id": "tycOiD1SPG0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
